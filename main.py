@@ -12,7 +12,7 @@ API_KEY = os.environ.get('apiKey')
 HASH = os.environ.get('hash')
 
 st.header('육아 정책 알림 문자 전송봇')
-st.markdown('대상에 맞는 육아 정책을 골라 적절한 인삿말과 함께 문자를 작성해드립니다.')
+st.markdown('대상에 맞는 육아 정책을 골라 적절한 인사말과 함께 문자를 작성해드립니다.')
 
 if 'stage' not in st.session_state:
     st.session_state.stage = 0
